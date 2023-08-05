@@ -41,5 +41,6 @@ binary_tree_t *binary_tree_uncle(binary_tree_t *node);
 void binary_tree_print(const binary_tree_t *);
 size_t binary_tree_height_calc(const binary_tree_t *tree);
 size_t binary_tree_depth_perf(const binary_tree_t *tree);
+binary_tree_t *binary_trees_ancestor(const binary_tree_t *first, const binary_tree_t *second);
 
 #endif
